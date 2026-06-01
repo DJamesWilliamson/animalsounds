@@ -1,6 +1,7 @@
 #' Print the Sound an Animal Makes
 #'
-#' Takes an animal and the sound it makes and returns the combination.
+#' Takes an **animal** and the **sound** it makes and returns the combination.
+#' It is a wrapper to [paste0()]
 #'
 #' @param animal A string
 #' @param sound A string
