@@ -20,5 +20,4 @@ It is a wrapper to \code{\link[=paste0]{paste0()}}
 }
 \examples{
 animal_sounds("dog", "woof")
-
 }
