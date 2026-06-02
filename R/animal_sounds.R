@@ -24,5 +24,5 @@ animal_sounds <- function(animal, sound) {
         cli::cli_abort("'sound' must be a single string")
     }
     # stopifnot(is.character(sound) & length(sound) ==1)
-    paste0("The ", animal, " goes ", sound, "!")
+    paste0("The ", animal, " says ", sound, "!")
 }
