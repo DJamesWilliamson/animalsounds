@@ -28,3 +28,7 @@ animal_sounds <- function(animal, sound) {
 	# stopifnot(is.character(sound) & length(sound) ==1)
 	paste0("The ", animal, " goes ", sound, "!")
 }
+
+
+
+
