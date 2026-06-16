@@ -18,16 +18,20 @@ animal_sounds <- function(animal, sound) {
 			c(
 				"{.var animal} must be a single string",
 				"i" = "It was {.type {animal}} of {length(animal)} instead."
-			)
+            )
 		)
 	}
-	# stopifnot(is.character(animal) & length(animal) ==1)
 	if (!rlang::is_character(sound, n = 1)) {
-		cli::cli_abort("'sound' must be a single string")
+		cli::cli_abort(
+		    c(
+		        "{.var sound} must be a single string",
+		        "i" = "It was {.type {sound}} of {length(sound)} instead."
+            )
+		)
 	}
-	# stopifnot(is.character(sound) & length(sound) ==1)
 	paste0("The ", animal, " goes ", sound, "!")
 }
+
 
 
 
