@@ -1,10 +1,10 @@
 Package: animalsounds
-Title: What the Package Does (One Line, Title Case)
+Title: Sounds That Animals Make
 Version: 0.0.0.9000
 Authors@R: 
     person("Duncan", "Williamson", , "jwgenmed@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0000-0000-0000"))
-Description: What the package does (one paragraph).
+Description: Prints out a sentence linking the animal to its sound.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
