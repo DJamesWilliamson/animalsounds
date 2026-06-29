@@ -1,5 +1,3 @@
-
-
 #' Make an excited animal sound
 #'
 #' Repeat an animal sound in uppercase.
@@ -16,9 +14,9 @@
 #' @export
 excited_sound <- function(animal, sound, times = 3) {
 
-    if (T) {
-        sound <- stringr::str_to_upper(sound)
-    }
+
+    sound <- stringr::str_to_upper(sound)
+
 
     paste("The", animal, "says", paste(rep(sound, times), collapse = " "))
 }
