@@ -1,0 +1,9 @@
+pandoc: 3.8.3
+pkgdown: 2.2.1
+pkgdown_sha: ~
+articles:
+  animalsounds: animalsounds.html
+last_built: 2026-07-13T10:26Z
+urls:
+  reference: https://djameswilliamson.github.io/animalsounds/reference
+  article: https://djameswilliamson.github.io/animalsounds/articles
